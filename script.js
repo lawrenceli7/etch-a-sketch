@@ -36,6 +36,8 @@ function changeColor(e) {
         e.target.style.backgroundColor = selectedColor;
         e.target.style.opacity = 1;
     } else {
+        e.target.style.backgroundColor = 'black';
+        e.target.style.opacity = 1;
     }
 }
 
